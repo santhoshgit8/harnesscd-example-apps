@@ -1,0 +1,11 @@
+harnessApiVersion: '1.0'
+type: GIT
+delegateSelectors:
+- delegate1-geevxm-65f595b957-nxz5s
+disableUserGitConfig: false
+keyAuth: false
+password: gcpkms:github1
+providerType: GIT
+url: https://github.com/santhoshgit8
+urlType: ACCOUNT
+username: santhoshgit8

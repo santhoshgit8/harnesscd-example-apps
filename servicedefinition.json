@@ -1,0 +1,22 @@
+{
+    "launchType": "FARGATE",
+    "serviceName": testapp,
+    "desiredCount": 1,
+    "networkConfiguration": {
+        "awsvpcConfiguration": {
+            "securityGroups": [
+                "sg-0fbcdaa0eaec3d142"
+            ],
+            "subnets": [
+                "subnet-0072b9528d5959153",
+                "subnet-04c8a6de333bcae57",
+                "subnet-0d1340fba05670897"
+            ],
+            "assignPublicIp": "ENABLED"
+        }
+    },
+    "deploymentConfiguration": {
+        "maximumPercent": 100,
+        "minimumHealthyPercent": 0
+    }
+}
